@@ -17,7 +17,10 @@ app.import('vendor/fontello/font/fontello.svg', {
 app.import('vendor/fontello/font/fontello.woff', {
   destDir: 'assets/fonts'
 });
+
+app.import('bower_components/picnic/releases/plugins.min.css');
 app.import('bower_components/picnic/releases/picnic.min.css');
+
 app.import('bower_components/moment/moment.js');
 app.import('bower_components/borrowers-dates/index.js', {
   exports: {
